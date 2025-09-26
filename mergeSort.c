@@ -11,7 +11,7 @@ void merge(int arr[],int l,int c,int r)
     {
         L[i]=arr[l+i];
     }//parte esquerda ordenada
-    for(i=0;i<qr;R[i]=arr[c+1+i],i++);//parte diretia ordenada
+    for(i=0;i<qr;R[i]=arr[c+1+i],i++);//parte direita ordenada
     k=l;
     for(i=0,j=0;i<ql&&j<qr; )
     {
